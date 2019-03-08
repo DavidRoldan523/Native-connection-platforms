@@ -8,7 +8,7 @@ from facebook_business.adobjects.adaccount import AdAccount
 def main():
     my_app_id = '783606571995940'
     my_app_secret = '96fc73d1515c9cf843c54a6fa0c37340'
-    my_access_token = 'EAALIr59eEyQBACm1wBzrg7OzcMzqgLIZAxBytSgwSvzZBHrp1ffmZAI1AL6Vba7f3j5JqFaCsdms8VHyoLmzp5CatOLa9hsrZAggjXB2SEwUG79yMtEZBZBlAa1PMJA2HgGLU6Fai2838dJrFneyUFlNuOgQz0FZAs4Q9AbP6I39koQkEKd9MO8LLq6BvM6d1wZD'
+    my_access_token = 'EAALIr59eEyQBAHvmgu9sirF5ZAPSy76dJnDXRXR8gbJcdwNTxf7HQtfLFHWtfnut1QVw8wV6lu87RhrkuFMwFM2VyKDkRTgPfVDpzj1lDuWshghA1zdJqeYxQZBF1POztqCM4YH5pZC5yujavKXk0VWMhY5iSiOp67cTYgaWAZDZD'
     FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
     my_account = AdAccount('act_1918887448126096')
     campaigns = my_account.get_campaigns()
