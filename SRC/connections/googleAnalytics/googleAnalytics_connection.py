@@ -4,8 +4,8 @@ from apiclient.discovery import build
 from oauth2client.service_account import ServiceAccountCredentials
 
 SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
-KEY_FILE_LOCATION = '<REPLACE_WITH_JSON_FILE>'
-VIEW_ID = '<REPLACE_WITH_VIEW_ID>'
+KEY_FILE_LOCATION = 'client_secret.json'
+VIEW_ID = '77321104'
 
 def initialize_analyticsreporting():
   """Initializes an Analytics Reporting API V4 service object.
@@ -20,6 +20,7 @@ def initialize_analyticsreporting():
   analytics = build('analyticsreporting', 'v4', credentials=credentials)
 
   return analytics
+
 
 def get_report(analytics):
   """Queries the Analytics Reporting API V4.
@@ -40,6 +41,7 @@ def get_report(analytics):
         }]
       }
   ).execute()
+
 
 def print_response(response):
   """Parses and prints the Analytics Reporting API V4 response.
@@ -64,10 +66,13 @@ def print_response(response):
         for metricHeader, value in zip(metricHeaders, values.get('values')):
           print(metricHeader.get('name') + ': ' + value)
 
+
 def main():
   analytics = initialize_analyticsreporting()
   response = get_report(analytics)
   print_response(response)
 
+
 if __name__ == '__main__':
   main()
+
