@@ -5,7 +5,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
 KEY_FILE_LOCATION = 'client_secret.json'
-VIEW_ID = '77321104'
+VIEW_ID = '139742423'
 
 def initialize_analyticsreporting():
   """Initializes an Analytics Reporting API V4 service object.
@@ -30,18 +30,50 @@ def get_report(analytics):
   Returns:
     The Analytics Reporting API V4 response.
   """
+
+  """
   return analytics.reports().batchGet(
       body={
         'reportRequests': [
         {
           'viewId': VIEW_ID,
-          'dateRanges': [{'startDate': '7daysAgo', 'endDate': 'today'}],
+          'dateRanges': [{'startDate': '2017-04-01', 'endDate': '2017-07-13'}],
           'metrics': [{'expression': 'ga:sessions'}],
           'dimensions': [{'name': 'ga:country'}]
         }]
       }
   ).execute()
-
+  """
+  """
+  return analytics.reports().batchGet(
+    body={
+      "reportRequests": [
+        {
+          "viewId": VIEW_ID,
+          "dateRanges": [
+            {
+              "startDate": "2017-04-01",
+              "endDate": "2017-07-13"
+            }],
+          "dimensions": [
+            {
+              "name": "ga:mobileDeviceModel"
+            }]
+        }]
+    }
+  ).execute()"""
+  return analytics.reports().batchGet(
+    body={
+      "reportRequests":
+        [
+          {
+            "viewId": VIEW_ID,
+            "dateRanges": [{"startDate": "2017-04-01", "endDate": "2017-05-20"}],
+            "metrics": [{"expression": "ga:users"}]
+          }
+        ]
+    }
+    ).execute()
 
 def print_response(response):
   """Parses and prints the Analytics Reporting API V4 response.
@@ -66,11 +98,11 @@ def print_response(response):
         for metricHeader, value in zip(metricHeaders, values.get('values')):
           print(metricHeader.get('name') + ': ' + value)
 
-
 def main():
   analytics = initialize_analyticsreporting()
   response = get_report(analytics)
   print_response(response)
+  #print(response)
 
 
 if __name__ == '__main__':
