@@ -1,4 +1,3 @@
-
 from googleads import adwords
 
 
@@ -26,7 +25,7 @@ def main(client):
     # Display results.
     if 'entries' in page:
       for campaign in page['entries']:
-        print('Campaign with id "%s", name "%s", and status "%s" was '
+        print ('Campaign with id "%s", name "%s", and status "%s" was '
                'found.' % (campaign['id'], campaign['name'],
                            campaign['status']))
     else:
@@ -37,5 +36,6 @@ def main(client):
 
 
 if __name__ == '__main__':
-  adwords_client = adwords.AdWordsClient.LoadFromStorage()
+  adwords_client = adwords.AdWordsClient.LoadFromStorage('googleAds.yaml')
   main(adwords_client)
+

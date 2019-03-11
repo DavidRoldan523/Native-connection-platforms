@@ -104,7 +104,7 @@ if __name__ == '__main__':
   QUERY_ID = args.query_id
   if not QUERY_ID:
     try:
-      QUERY_ID = int(input('Enter the query id or press enter to '
+      QUERY_ID = int(raw_input('Enter the query id or press enter to '
                                'list queries: '))
     except ValueError:
       QUERY_ID = 0
