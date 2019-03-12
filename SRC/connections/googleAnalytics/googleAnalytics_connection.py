@@ -3,9 +3,9 @@
 from apiclient.discovery import build
 from oauth2client.service_account import ServiceAccountCredentials
 
-SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
+SCOPES = ['https://www.googleapis.com/auth/analytics']
 KEY_FILE_LOCATION = 'client_secret.json'
-VIEW_ID = '139742423'
+VIEW_ID = '168520073' # Partido politico ARENA
 
 def initialize_analyticsreporting():
   """Initializes an Analytics Reporting API V4 service object.
@@ -68,8 +68,8 @@ def get_report(analytics):
         [
           {
             "viewId": VIEW_ID,
-            "dateRanges": [{"startDate": "2017-04-01", "endDate": "2017-05-20"}],
-            "metrics": [{"expression": "ga:users"}]
+            "dateRanges": [{"startDate": "2019-02-10", "endDate": "2019-03-11"}],
+            "metrics": [{"expression": "ga:sessions"}]
           }
         ]
     }
