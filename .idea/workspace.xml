@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4eb1913-6d34-4783-b028-74cc7032fc93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SRC/connections/dcm/dcm_connection_get_advertisers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SRC/connections/dcm/dfareporting_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ProyectAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProyectAPI.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRC/connections/displayvideo/doubleclickbidmanager.dat" beforeDir="false" afterPath="$PROJECT_DIR$/SRC/connections/displayvideo/doubleclickbidmanager.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SRC/connections/facebook/facebook_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/SRC/connections/facebook/facebook_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SRC/connections/dcm/dcm_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/SRC/connections/dcm/dcm_connection_getcampaigns.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,26 +16,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRC/connections/displayvideo/displayvideo_connection_get_reports.py">
+        <entry file="file://$PROJECT_DIR$/SRC/connections/dcm/dcm_connection_getcampaigns.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="676">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="e#699#714#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SRC/connections/dcm/dfareporting_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2091">
+              <caret line="123" column="56" lean-forward="true" selection-start-line="123" selection-start-column="56" selection-end-line="123" selection-end-column="56" />
+              <folding>
+                <element signature="e#670#685#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SRC/connections/displayvideo/displayvideo_connect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding>
+                <element signature="e#1087#1102#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SRC/connections/facebook/facebook_connection.py">
+        <entry file="file://$PROJECT_DIR$/SRC/connections/dcm/dcm_connection_get_advertisers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="101">
+              <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+              <folding>
+                <element signature="e#730#745#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>client</find>
+      <find>get_arguments</find>
+      <find>profile_id</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +88,10 @@
         <option value="$PROJECT_DIR$/SRC/connections/displayvideo_connection_upload_lineitems.py" />
         <option value="$PROJECT_DIR$/SRC/connections/displayvideo/displayvideo_connection_get_reports.py" />
         <option value="$PROJECT_DIR$/SRC/connections/googleAnalytics/googleAnalytics_connection.py" />
+        <option value="$PROJECT_DIR$/SRC/connections/dcm/auth_dcm.py" />
+        <option value="$PROJECT_DIR$/SRC/connections/dcm/dfareporting_utils.py" />
+        <option value="$PROJECT_DIR$/SRC/connections/dcm/dcm_connection.py" />
+        <option value="$PROJECT_DIR$/SRC/connections/dcm/dcm_connection_get_advertisers.py" />
       </list>
     </option>
   </component>
@@ -88,12 +130,14 @@
               <item name="ProyectAPI" type="462c0819:PsiDirectoryNode" />
               <item name="SRC" type="462c0819:PsiDirectoryNode" />
               <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="facebook" type="462c0819:PsiDirectoryNode" />
+              <item name="dcm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProyectAPI" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProyectAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="SRC" type="462c0819:PsiDirectoryNode" />
+              <item name="connections" type="462c0819:PsiDirectoryNode" />
+              <item name="displayvideo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -117,8 +161,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.displayvideo_connection_get_reports">
-    <configuration name="displayvideo_connection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dcm_connection_get_advertisers">
+    <configuration name="auth_dcm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProyectAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SRC/connections" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SRC/connections/dcm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="F:\ProyectAPI\SRC\connections\displayvideo_connection_get_reports.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SRC/connections/dcm/auth_dcm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="displayvideo_connection_download_lineitems" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dcm_connection" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProyectAPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,11 +191,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SRC/connections" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SRC/connections/dcm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SRC/connections/displayvideo_connection_download_lineitems.py" />
+      <option name="SCRIPT_NAME" value="F:\ProyectAPI\SRC\connections\dcm\dcm_connection_getcampaigns.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dcm_connection_get_advertisers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProyectAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SRC/connections/dcm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SRC/connections/dcm/dcm_connection_get_advertisers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="displayvideo_connect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProyectAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SRC/connections/displayvideo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SRC/connections/displayvideo/displayvideo_connect.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,55 +267,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="displayvideo_connection_upload_lineitems" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ProyectAPI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SRC/connections" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SRC/connections/displayvideo_connection_upload_lineitems.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="util" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ProyectAPI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SRC/connections" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SRC/connections/util.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dcm_connection_get_advertisers" />
+        <item itemvalue="Python.displayvideo_connect" />
+        <item itemvalue="Python.dcm_connection" />
+        <item itemvalue="Python.auth_dcm" />
         <item itemvalue="Python.displayvideo_connection_get_reports" />
-        <item itemvalue="Python.displayvideo_connection_upload_lineitems" />
-        <item itemvalue="Python.displayvideo_connection_download_lineitems" />
-        <item itemvalue="Python.util" />
-        <item itemvalue="Python.displayvideo_connection" />
       </list>
     </recent_temporary>
   </component>
@@ -249,18 +293,18 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17559524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.29951692" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4589372" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4589372" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -276,9 +320,7 @@
     <entry file="file://$PROJECT_DIR$/SRC/connections/displayvideo_connection_download_lineitems.py" />
     <entry file="file://$PROJECT_DIR$/SRC/connections/displayvideo_connection_upload_lineitems.py" />
     <entry file="file://$PROJECT_DIR$/SRC/connections/client_secrets.json" />
-    <entry file="file://$PROJECT_DIR$/requeriments.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/requeriments.txt" />
     <entry file="file://$PROJECT_DIR$/SRC/connections/googleAnalytics/googleAnalytics_connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -289,17 +331,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SRC/connections/displayvideo/displayvideo_connection_get_reports.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/connections/displayvideo/displayvideo_connection_get_reports.py" />
     <entry file="file://$PROJECT_DIR$/SRC/connections/facebook/facebook_connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/connections/dcm/auth_dcm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="e#746#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/connections/displayvideo/client_secrets.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/connections/dcm/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/connections/dcm/client_secrets.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/connections/dcm/dcm_connection_getcampaigns.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#699#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/connections/dcm/dfareporting_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="56" lean-forward="true" selection-start-line="123" selection-start-column="56" selection-end-line="123" selection-end-column="56" />
+          <folding>
+            <element signature="e#670#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/connections/displayvideo/displayvideo_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#1087#1102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/connections/dcm/dcm_connection_get_advertisers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+          <folding>
+            <element signature="e#730#745#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
