@@ -1,4 +1,6 @@
-developer_token: I8x0b-P0V90tXmrfm1JxPw
-client_id: 927281295020-9nvvcoti8idi79guol1ghapjni36r48t.apps.googleusercontent.com
-client_secret: cMnr0R_1bLZAJkLryUVKaI59
-refresh_token: https://oauth2.googleapis.com/token
+adwords:
+  developer_token: I8x0b-P0V90tXmrfm1JxPw
+  client_customer_id: 449-937-4804
+  client_id: 421700549759-3n23fiqp6eg0rmjbakfmbihfnit5di8p.apps.googleusercontent.com
+  client_secret: yrwrm6PGP8mMbD8i803h7ab3
+  refresh_token: https://oauth2.googleapis.com/token
