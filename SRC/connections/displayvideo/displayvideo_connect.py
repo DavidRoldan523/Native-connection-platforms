@@ -1,28 +1,3 @@
-#!/usr/bin/python
-#
-# Copyright 2015 Google Inc. All Rights Reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-"""This example demonstrates how to retrieve the latest report.
-DBM users typically create scheduled reports, where the advertiser user either
-the UI or API to create a query that will be used to generate reports based on
-a daily, weekly, or monthly schedule.
-In this example, we check to see if a daily query has run in the last 12 hours.
-If it has, we download the data to a local CSV file. If no queryId is provided,
-this will print a list of existing queries.
-"""
-
 import argparse
 from contextlib import closing
 from datetime import datetime
@@ -104,7 +79,7 @@ if __name__ == '__main__':
   QUERY_ID = args.query_id
   if not QUERY_ID:
     try:
-      QUERY_ID = int(raw_input('Enter the query id or press enter to '
+      QUERY_ID = int(input('Enter the query id or press enter to '
                                'list queries: '))
     except ValueError:
       QUERY_ID = 0
