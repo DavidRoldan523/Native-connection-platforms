@@ -69,7 +69,7 @@ def get_report(analytics):
           {
             "viewId": VIEW_ID,
             "dateRanges": [{"startDate": "2019-02-10", "endDate": "2019-03-11"}],
-            "metrics": [{"expression": "ga:sessions"}]
+            "metrics": [{"expression": "ga:users"}]
           }
         ]
     }

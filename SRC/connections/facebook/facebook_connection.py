@@ -12,8 +12,9 @@ FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 my_account = AdAccount('act_1918887448126096')
 
 def main():
-    # campaigns = my_account.get_campaigns(fields=fields)
-    # print(campaigns)
+    campaigns = my_account.get_campaigns()
+
+
     adsets = my_account.get_ad_sets(fields=[
         AdSet.Field.name,
         AdSet.Field.account_id,
@@ -25,8 +26,17 @@ def main():
         AdSet.Field.start_time
     ])
 
-    for adset in adsets:
-        print(adset)
+    insights = my_account.get_insights()
+
+    print("*******************INSIGHTS*******************")
+    print(insights)
+
+    print("*******************ADSETS*******************")
+    print(adsets)
+
+    print("*******************CAMPAINGS*******************")
+    print(campaigns)
+
 
 
 if __name__ == '__main__':

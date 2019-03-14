@@ -68,7 +68,7 @@ def is_in_report_window(run_time_ms, report_window):
     A boolean indicating whether the given query's report run time is within
     the report window.
   """
-  report_time = datetime.fromtimestamp(int((run_time_ms))/1000)
+  report_time = datetime.fromtimestamp(int((run_time_ms))/100)
   earliest_time_in_range = datetime.now() - timedelta(hours=report_window)
   return report_time > earliest_time_in_range
 
