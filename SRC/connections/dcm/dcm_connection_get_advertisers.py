@@ -58,8 +58,7 @@ def main(argv):
       else:
         break
 
-  except client.AccessTokenRefreshError:
-    print ('The credentials have been revoked or expired, please re-run the '
+  except client.AccessTokenRefreshError:    print ('The credentials have been revoked or expired, please re-run the '
            'application to re-authorize')
 
 

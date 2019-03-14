@@ -1,4 +1,5 @@
 import tweepy
+import credentials as credential
 from tweepy import Stream
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
@@ -18,10 +19,10 @@ class MyListener(StreamListener):
         return True
 
 # Credendiales de app twitter
-consumer_key = ''
-consumer_secret = ''
-access_token = ''
-access_secret = ''
+consumer_key = credential.consumer_key
+consumer_secret = credential.consumer_key
+access_token = credential.access_token
+access_secret = credential.access_secret
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)

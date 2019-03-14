@@ -1,11 +1,12 @@
 """Hello Analytics Reporting API V4."""
 
+import credentials as credential
 from apiclient.discovery import build
 from oauth2client.service_account import ServiceAccountCredentials
 
 SCOPES = ['https://www.googleapis.com/auth/analytics']
 KEY_FILE_LOCATION = 'client_secret.json'
-VIEW_ID = '168520073' # Partido politico ARENA
+VIEW_ID = credential.VIEW_ID
 
 def initialize_analyticsreporting():
   """Initializes an Analytics Reporting API V4 service object.
