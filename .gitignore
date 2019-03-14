@@ -1,12 +1,1 @@
-*.json
-*.dat
-*.bat
-*.csv
-*.yaml
-SRC/connections/facebook/credentials.py
-SRC/connections/googleAdwords/credentials.py
-SRC/connections/googleAnalytics/credentials.py
-SRC/connections/mapp/credentials.py
-SRC/connections/mediamath/credentials.py
-SRC/connections/sizmek/credentials.py
-SRC/connections/twitter/credentials.py
+
