@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4eb1913-6d34-4783-b028-74cc7032fc93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d4eb1913-6d34-4783-b028-74cc7032fc93" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SRC/connections/googleAdwords/googleAds.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="84" lean-forward="true" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+            <state relative-caret-position="17">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -123,40 +111,6 @@
               <item name="ProyectAPI" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProyectAPI" type="462c0819:PsiDirectoryNode" />
               <item name="SRC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="SRC" type="462c0819:PsiDirectoryNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="SRC" type="462c0819:PsiDirectoryNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="displayvideo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="SRC" type="462c0819:PsiDirectoryNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="facebook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="SRC" type="462c0819:PsiDirectoryNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="googleAdwords" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProyectAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProyectAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="SRC" type="462c0819:PsiDirectoryNode" />
-              <item name="connections" type="462c0819:PsiDirectoryNode" />
-              <item name="googleAnalytics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -413,8 +367,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" lean-forward="true" selection-start-column="49" selection-end-column="49" />
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SRC/connections/googleAdwords/googleAds.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="84" lean-forward="true" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
         </state>
       </provider>
     </entry>
