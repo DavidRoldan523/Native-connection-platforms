@@ -1,6 +1,5 @@
 # pip install TerminalOne
 import terminalone
-import credentials as credential
 
 
 def main():
@@ -13,8 +12,8 @@ def main():
             password="mypass")
     """
     # Connection
-    t1 = terminalone.T1(credential.email,
-                        credential.password)
+    t1 = terminalone.T1("juan.espinosa@ariadnacg.com",
+                        "Ariadnaespinosa0213!")
     # Query
     advertisers = t1.get("advertisers")
     for advertiser in advertisers:

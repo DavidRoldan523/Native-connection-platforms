@@ -19,15 +19,14 @@
 
 import argparse
 import sys
-import credentials as credential
 
 from google_auth_oauthlib.flow import InstalledAppFlow
 from oauthlib.oauth2.rfc6749.errors import InvalidGrantError
 
 # Your OAuth2 Client ID and Secret. If you do not have an ID and Secret yet,
 # please go to https://console.developers.google.com and create a set.
-DEFAULT_CLIENT_ID = credential.DEFAULT_CLIENT_ID
-DEFAULT_CLIENT_SECRET = credential.DEFAULT_CLIENT_SECRET
+DEFAULT_CLIENT_ID = '127768489978-m8cqpo4euaj103np6ralju3jepe8r5mm.apps.googleusercontent.com'
+DEFAULT_CLIENT_SECRET = '44uEAq0tGdCNru_ut5YHqqTU'
 
 # The AdWords API OAuth2 scope.
 SCOPE = u'https://www.googleapis.com/auth/adwords'

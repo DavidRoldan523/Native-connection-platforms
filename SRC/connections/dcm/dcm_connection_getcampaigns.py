@@ -14,10 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""This example lists all advertisers.
-Only advertiser name, ID and floodlight config ID will be returned.
+"""This example lists all existing campaigns for the specified user profile.
 profile_id = 3192243 -> id adoperations.1
 """
+
 
 import argparse
 import sys
@@ -29,7 +29,7 @@ from oauth2client import client
 argparser = argparse.ArgumentParser(add_help=False)
 argparser.add_argument(
     'profile_id', type=int,
-    help='The ID of the profile to look up advertisers for')
+    help='The ID of the profile to look up campaigns for')
 
 
 def main(argv):
@@ -43,18 +43,18 @@ def main(argv):
 
   try:
     # Construct the request.
-    request = service.advertisers().list(profileId=profile_id)
+    request = service.campaigns().list(profileId=profile_id)
 
     while True:
       # Execute request and print response.
       response = request.execute()
 
-      for advertiser in response['advertisers']:
-        print ('Found advertiser with ID %s and name "%s".'
-               % (advertiser['id'], advertiser['name']))
+      for campaign in response['campaigns']:
+        print ('Found campaign with ID %s and name "%s".'
+               % (campaign['id'], campaign['name']))
 
-      if response['advertisers'] and response['nextPageToken']:
-        request = service.advertisers().list_next(request, response)
+      if response['campaigns'] and response['nextPageToken']:
+        request = service.campaigns().list_next(request, response)
       else:
         break
 
