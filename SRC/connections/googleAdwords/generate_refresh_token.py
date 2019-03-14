@@ -25,14 +25,15 @@ from oauthlib.oauth2.rfc6749.errors import InvalidGrantError
 
 # Your OAuth2 Client ID and Secret. If you do not have an ID and Secret yet,
 # please go to https://console.developers.google.com and create a set.
-DEFAULT_CLIENT_ID = '421700549759-3n23fiqp6eg0rmjbakfmbihfnit5di8p.apps.googleusercontent.com'
-DEFAULT_CLIENT_SECRET = 'yrwrm6PGP8mMbD8i803h7ab3'
+DEFAULT_CLIENT_ID = '127768489978-m8cqpo4euaj103np6ralju3jepe8r5mm.apps.googleusercontent.com'
+DEFAULT_CLIENT_SECRET = '44uEAq0tGdCNru_ut5YHqqTU'
 
 # The AdWords API OAuth2 scope.
-SCOPE = 'https://www.googleapis.com/auth/adwords'
+SCOPE = u'https://www.googleapis.com/auth/adwords'
 # The redirect URI set for the given Client ID. The redirect URI for Client ID
 # generated for an installed application will always have this value.
-_REDIRECT_URI = 'https://localhost'
+# _REDIRECT_URI = 'https://localhost'
+_REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob'
 
 parser = argparse.ArgumentParser(description='Generates a refresh token with '
                                  'the provided credentials.')
