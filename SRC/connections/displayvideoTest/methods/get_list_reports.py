@@ -5,7 +5,7 @@ from connection import credentials as credential
 from connection.displayvideo_connection import DoubleClickBidManagerConnect
 
 
-def get_report(doublebidmanager, view_id):
+def get_report(doublebidmanager):
   return doublebidmanager.queries().listqueries().execute()
 
 
