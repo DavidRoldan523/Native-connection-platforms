@@ -23,7 +23,9 @@ def main():
         AdSet.Field.daily_budget,
         AdSet.Field.effective_status,
         AdSet.Field.end_time,
-        AdSet.Field.start_time
+        AdSet.Field.start_time,
+        AdSet.Field.billing_event,
+        AdSet.Field.bid_amount
     ])
 
     print("*******************ADSETS*******************")
