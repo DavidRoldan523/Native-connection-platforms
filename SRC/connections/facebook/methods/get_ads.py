@@ -2,7 +2,7 @@ import sys
 sys.path.insert(1, '..')
 from connection import credentials as credential
 from connection.facebook_connection import FacebookConnect
-from facebook_business.adobjects.campaign import Campaign
+from facebook_business.adobjects.ad import Ad
 
 
 def main():
@@ -15,21 +15,20 @@ def main():
     connection = FacebookConnect(my_app_id, my_app_secret,
                                  my_access_token, my_account).connect()
 
-    campaigns = connection.get_campaigns(fields=[
-        Campaign.Field.name,
-        Campaign.Field.account_id,
-        Campaign.Field.id,
-        Campaign.Field.buying_type,
-        Campaign.Field.daily_budget,
-        Campaign.Field.effective_status,
-        Campaign.Field.start_time,
-        Campaign.Field.stop_time
+    ads = connection.get_ads(fields=[
+        Ad.Field.name,
+        Ad.Field.account_id,
+        Ad.Field.campaign_id,
+        Ad.Field.adset_id,
+        Ad.Field.bid_amount,
+        Ad.Field.bid_type,
+        Ad.Field.status
     ])
-    print("*******************CAMPAINGS*******************")
-    print(campaigns)
+
+    print("*******************ADS*******************")
+    print(ads)
 
 
 if __name__ == '__main__':
     main()
-
 
