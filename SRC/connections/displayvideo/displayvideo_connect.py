@@ -23,7 +23,7 @@ parser.add_argument('--report_window', default=12, type=int,
 
 
 def main(doubleclick_bid_manager, output_dir, query_id, report_window):
-  if query_id:
+  if query_id != '0':
     # Call the API, getting the latest status for the passed queryId.
     query = (doubleclick_bid_manager.queries().getquery(queryId=query_id)
                 .execute())
@@ -60,14 +60,6 @@ def main(doubleclick_bid_manager, output_dir, query_id, report_window):
 
 
 def is_in_report_window(run_time_ms, report_window):
-  """Determines if the given time in milliseconds is in the report window.
-  Args:
-    run_time_ms: str containing a time in milliseconds.
-    report_window: int identifying the range of the report window in hours.
-  Returns:
-    A boolean indicating whether the given query's report run time is within
-    the report window.
-  """
   report_time = datetime.fromtimestamp(int((run_time_ms))/100)
   earliest_time_in_range = datetime.now() - timedelta(hours=report_window)
   return report_time > earliest_time_in_range
@@ -75,13 +67,6 @@ def is_in_report_window(run_time_ms, report_window):
 
 if __name__ == '__main__':
   args = util.get_arguments(sys.argv, __doc__, parents=[parser])
-  # Retrieve the query id of the report we're downloading, or set to 0.
-  QUERY_ID = args.query_id
-  if not QUERY_ID:
-    try:
-      QUERY_ID = int(input('Enter the query id or press enter to '
-                               'list queries: '))
-    except ValueError:
-      QUERY_ID = 0
-
+  # QUERY_ID = '0'
+  QUERY_ID = '525703486'
   main(util.setup(args), args.output_directory, QUERY_ID, args.report_window)
