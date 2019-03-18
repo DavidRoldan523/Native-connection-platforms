@@ -8,25 +8,30 @@ from connection.googleAnalytics_connection import GoogleAnalyticsConnect
 
 def get_report(analytics, view_id):
   return analytics.reports().batchGet(
-        body={
-          'reportRequests': [
-          {
-            'viewId': view_id,
-            "dateRanges": [{"startDate": "2019-02-10", "endDate": "2019-03-11"}],
-            'metrics': [{'expression': 'ga:sessions'},
-                        {'expression': "ga:users"}],
-            'dimensions': [{'name': 'ga:country'},
-                           {'name':'ga:browser'}]
-          }]
+    body={
+          "reportRequests":
+          [
+            {
+              "viewId": view_id,
+              "dimensions": [{"name": "ga:medium"}],
+              "metrics": [{"expression": "ga:sessions"}],
+              "samplingLevel":  "LARGE"
+                # SMALL repuesta rapida pero con tamaño de muestra pequeña
+                # LARGE repuesta lenta pero màs precisa
+                # DEFAULT respuesta equilibrada
+            }
+          ]
         }
-    ).execute()
+      ).execute()
 
 
 def main():
   connection = GoogleAnalyticsConnect(credential.key_file_location,
                                       credential.scopes).connect()
+
   response = get_report(connection, credential.view_id)
   print(json.dumps(response, indent=2, sort_keys=True))
+
 
 if __name__ == '__main__':
   main()

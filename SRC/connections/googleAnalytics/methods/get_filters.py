@@ -8,25 +8,34 @@ from connection.googleAnalytics_connection import GoogleAnalyticsConnect
 
 def get_report(analytics, view_id):
   return analytics.reports().batchGet(
-        body={
-          'reportRequests': [
-          {
-            'viewId': view_id,
-            "dateRanges": [{"startDate": "2019-02-10", "endDate": "2019-03-11"}],
-            'metrics': [{'expression': 'ga:sessions'},
-                        {'expression': "ga:users"}],
-            'dimensions': [{'name': 'ga:country'},
-                           {'name':'ga:browser'}]
+    body={
+          "reportRequests":
+          [
+            {
+              "viewId": view_id,
+              "metrics": [
+                {"expression": "ga:pageviews"},
+                {"expression": "ga:sessions"}
+              ],
+              "metricFilterClauses": [{
+                  "filters": [{
+                      "metricName": "ga:pageviews",
+                      "operator": "GREATER_THAN",
+                      "comparisonValue": "2"
+                  }]
+              }]
           }]
         }
-    ).execute()
+      ).execute()
 
 
 def main():
   connection = GoogleAnalyticsConnect(credential.key_file_location,
                                       credential.scopes).connect()
+
   response = get_report(connection, credential.view_id)
   print(json.dumps(response, indent=2, sort_keys=True))
+
 
 if __name__ == '__main__':
   main()
