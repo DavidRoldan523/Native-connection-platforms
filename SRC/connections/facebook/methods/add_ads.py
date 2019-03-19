@@ -16,10 +16,15 @@ def main():
     ad = Ad(parent_id=my_account)
     ad.update({
         Ad.Field.name: 'My first Ads',
-        Ad.Field.campaign_id: '23843306031540001',
-        Ad.Field.adset_id: '23843306403390001',
-        Ad.Field.creative:
+        Ad.Field.campaign_id: '23843181245670619',
+        Ad.Field.adset_id: '23843216725530619',
+        Ad.Field.creative: {
+            'creative_id': '23843223966600619'
+        }
     })
+    """
+    Utilizando datos de cuenta ariadna business
+    """
 
     ad.remote_create(params={
         'status': Ad.Status.paused,

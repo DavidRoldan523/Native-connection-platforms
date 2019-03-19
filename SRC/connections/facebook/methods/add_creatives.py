@@ -16,15 +16,11 @@ connection = FacebookConnect(my_app_id, my_app_secret, my_access_token, my_accou
 
 def main():
     creative = AdCreative(parent_id=my_account)
+
     creative.update({
         AdCreative.Field.name: 'My first Creative'
     })
 
-    """creative.remote_create(params={
-        'status': AdCreative.Status.paused,
-    })
-    """
-    print(creative)
 
     id = my_account
     FacebookAdsApi.init(access_token=my_access_token)
@@ -33,10 +29,11 @@ def main():
     ]
     params = {
         'name': 'First creative',
-        'object_story_id': '186340881415521_2076263585756565'
+        'object_story_id': '1006669476014569_2073910765991847'
+        # id1 = business id ariadna, id2 = postID facebook JDR
     }
     print (AdAccount(id).create_ad_creative(
-        fields=fields,
+        fields=creative,
         params=params))
 
 if __name__ == '__main__':

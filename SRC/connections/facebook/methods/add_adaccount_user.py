@@ -1,9 +1,9 @@
-
 import sys
 sys.path.insert(1, '..')
 from connection import credentials as credential
 from connection.facebook_connection import FacebookConnect
-from facebook_business.adobjects.ad import Ad
+from facebook_business.adobjects.adset import AdSet
+from facebook_business.adobjects.adaccount import AdAccount
 
 
 def main():
@@ -16,18 +16,16 @@ def main():
     connection = FacebookConnect(my_app_id, my_app_secret,
                                  my_access_token, my_account).connect()
 
-    ads = connection.get_ads(fields=[
-        Ad.Field.name,
-        Ad.Field.account_id,
-        Ad.Field.campaign_id,
-        Ad.Field.adset_id,
-        Ad.Field.bid_amount,
-        Ad.Field.bid_type,
-        Ad.Field.status
+    adaccount_user = connection.create_user(fields=[
+        AdAccount.Field.account_id,
+        AdAccount.Field.id,
+        AdAccount.Field.name,
+        AdAccount.Field.currency,
+
     ])
 
-    print("*******************ADS*******************")
-    print(ads)
+    print("*******************NEW ACCOUNT USER*******************")
+    print(adaccount_user)
 
 
 if __name__ == '__main__':
