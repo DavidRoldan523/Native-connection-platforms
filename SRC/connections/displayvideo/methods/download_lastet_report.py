@@ -1,3 +1,9 @@
+import sys
+sys.path.insert(1, '..')
+
+from connection import credentials as credential
+from connection.displayvideo_connection import DisplayVideoConnect
+
 import argparse
 from contextlib import closing
 from datetime import datetime
@@ -66,6 +72,10 @@ def is_in_report_window(run_time_ms, report_window):
 
 
 if __name__ == '__main__':
+
+  connection = DisplayVideoConnect(credential.key_file_location,
+                                      credential.scopes).connect()
+
   args = util.get_arguments(sys.argv, __doc__, parents=[parser])
   # QUERY_ID = '0'
   QUERY_ID = '525703486'
