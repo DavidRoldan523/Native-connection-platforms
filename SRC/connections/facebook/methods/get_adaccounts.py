@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import sys
 sys.path.insert(1, '..')
 from connection import credentials as credential
@@ -19,11 +21,15 @@ def main():
     adaccount = connection.get_users(fields=[
         AdAccount.Field.id,
         AdAccount.Field.name,
-        AdAccount.Field.balance
+        AdAccount.Field.balance,
+        AdAccount.Field.spend_cap
     ])
-
+    
     print("*******************AD ACCOUNTS USERS*******************")
-    print(adaccount)
+    # print(str(adaccount))
+    file = open('adaccount.json', 'w')
+    file.write(str(adaccount))
+    file.close()
 
 
 if __name__ == '__main__':

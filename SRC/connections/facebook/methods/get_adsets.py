@@ -23,13 +23,14 @@ def main():
         AdSet.Field.daily_budget,
         AdSet.Field.effective_status,
         AdSet.Field.end_time,
-        AdSet.Field.start_time,
-        AdSet.Field.billing_event,
-        AdSet.Field.bid_amount
+        AdSet.Field.start_time
     ])
 
     print("*******************ADSETS*******************")
-    print(adsets)
+    # print(adsets)
+    file = open('adsets.json', 'w')
+    file.write(str(adsets))
+    file.close()
 
 
 if __name__ == '__main__':

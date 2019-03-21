@@ -1,0 +1,77 @@
+[<AdsInsights> {
+    "clicks": "121123",
+    "date_start": "2019-02-19",
+    "date_stop": "2019-03-20",
+    "frequency": "2.79069",
+    "impressions": "5659926",
+    "inline_link_clicks": "76861",
+    "inline_post_engagement": "88843",
+    "reach": "2028146",
+    "social_spend": "4027181",
+    "spend": "9013893",
+    "unique_actions": [
+        {
+            "action_type": "link_click",
+            "value": "49584"
+        },
+        {
+            "action_type": "post_reaction",
+            "value": "4252"
+        },
+        {
+            "action_type": "video_view",
+            "value": "209408"
+        },
+        {
+            "action_type": "offsite_conversion.fb_pixel_initiate_checkout",
+            "value": "2680"
+        },
+        {
+            "action_type": "offsite_conversion.fb_pixel_complete_registration",
+            "value": "1044"
+        },
+        {
+            "action_type": "offsite_conversion.fb_pixel_search",
+            "value": "25616"
+        },
+        {
+            "action_type": "post",
+            "value": "879"
+        },
+        {
+            "action_type": "leadgen.other",
+            "value": "1790"
+        },
+        {
+            "action_type": "comment",
+            "value": "380"
+        },
+        {
+            "action_type": "landing_page_view",
+            "value": "36032"
+        },
+        {
+            "action_type": "offsite_conversion.fb_pixel_purchase",
+            "value": "350"
+        },
+        {
+            "action_type": "offsite_conversion",
+            "value": "25680"
+        },
+        {
+            "action_type": "page_engagement",
+            "value": "226176"
+        },
+        {
+            "action_type": "post_engagement",
+            "value": "226176"
+        }
+    ],
+    "unique_clicks": "63563",
+    "website_ctr": [
+        {
+            "action_type": "link_click",
+            "value": "1.357986"
+        }
+    ]
+}]

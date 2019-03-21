@@ -18,21 +18,25 @@ def main():
     insights = connection.get_insights(fields=[
         AdsInsights.Field.ad_id,
         AdsInsights.Field.clicks,
+        AdsInsights.Field.impressions,
+        AdsInsights.Field.unique_clicks,
         AdsInsights.Field.date_start,
         AdsInsights.Field.date_stop,
         AdsInsights.Field.frequency,
-        AdsInsights.Field.impressions,
+        AdsInsights.Field.inline_link_clicks,
         AdsInsights.Field.reach,
+        AdsInsights.Field.ad_id,
         AdsInsights.Field.social_spend,
         AdsInsights.Field.spend,
-        AdsInsights.Field.unique_clicks,
         AdsInsights.Field.unique_actions,
-        AdsInsights.Field.unique_inline_link_clicks,
-        AdsInsights.Field.website_ctr,
-
+        AdsInsights.Field.inline_post_engagement,
+        AdsInsights.Field.website_ctr
     ])
     print("*******************INSIGHTS*******************")
-    print(insights)
+    # print(insights)
+    file = open('insights.json', 'w')
+    file.write(str(insights))
+    file.close()
 
 
 if __name__ == '__main__':

@@ -17,6 +17,7 @@ def main():
                                  my_access_token, my_account).connect()
 
     ads = connection.get_ads(fields=[
+        Ad.Field.id,
         Ad.Field.name,
         Ad.Field.account_id,
         Ad.Field.campaign_id,
@@ -27,7 +28,10 @@ def main():
     ])
 
     print("*******************ADS*******************")
-    print(ads)
+    # print(ads)
+    file = open('ads.json', 'w')
+    file.write(str(ads))
+    file.close()
 
 
 if __name__ == '__main__':
