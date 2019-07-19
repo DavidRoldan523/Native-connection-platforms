@@ -1,5 +1,5 @@
-from apiclient.discovery import build
-from oauth2client.service_account import ServiceAccountCredentials
+import googleapiclient.discovery
+from google.oauth2 import service_account
 
 
 class DisplayVideoConnect:
@@ -8,7 +8,6 @@ class DisplayVideoConnect:
         self.scopes = scopes
 
     def connect(self):
-        credentials = ServiceAccountCredentials.from_json_keyfile_name(
-            self.key_file_location, self.scopes)
-        displayvideo = build('doubleclickbidmanager', 'v1', credentials=credentials)
+        credentials = service_account.Credentials.from_service_account_file(self.key_file_location, scopes=self.scopes)
+        displayvideo = googleapiclient.discovery.build('doubleclickbidmanager', 'v1', credentials=credentials)
         return displayvideo

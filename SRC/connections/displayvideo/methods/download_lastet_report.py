@@ -1,18 +1,16 @@
-import sys
-sys.path.insert(1, '..')
-
-from connection import credentials as credential
-from connection.displayvideo_connection import DisplayVideoConnect
-
+import os
 import argparse
+import util
+import sys
 from contextlib import closing
 from datetime import datetime
 from datetime import timedelta
-import os
-import sys
 from six.moves.urllib.request import urlopen
-import util
 
+import sys
+sys.path.insert(1, '..')
+from connection import credentials as credential
+from connection.displayvideo_connection import DisplayVideoConnect
 
 # Optional filtering arguments.
 parser = argparse.ArgumentParser(
@@ -31,10 +29,8 @@ parser.add_argument('--report_window', default=12, type=int,
 def main(doubleclick_bid_manager, output_dir, query_id, report_window):
   if query_id != '0':
     # Call the API, getting the latest status for the passed queryId.
-    query = (doubleclick_bid_manager.queries().getquery(queryId=query_id)
-                .execute())
+    query = (doubleclick_bid_manager.queries().getquery(queryId=query_id).execute())
     try:
-      # If it is recent enough...
       if (is_in_report_window(query['metadata']['latestReportRunTimeMs'],
                               report_window)):
         if not os.path.isabs(output_dir):
@@ -64,19 +60,12 @@ def main(doubleclick_bid_manager, output_dir, query_id, report_window):
     else:
       print('No queries exist.')
 
-
 def is_in_report_window(run_time_ms, report_window):
   report_time = datetime.fromtimestamp(int((run_time_ms))/100)
   earliest_time_in_range = datetime.now() - timedelta(hours=report_window)
   return report_time > earliest_time_in_range
 
-
 if __name__ == '__main__':
-
-  connection = DisplayVideoConnect(credential.key_file_location,
-                                      credential.scopes).connect()
-
   args = util.get_arguments(sys.argv, __doc__, parents=[parser])
-  # QUERY_ID = '0'
-  QUERY_ID = '525703486'
+  QUERY_ID = '622251878'
   main(util.setup(args), args.output_directory, QUERY_ID, args.report_window)

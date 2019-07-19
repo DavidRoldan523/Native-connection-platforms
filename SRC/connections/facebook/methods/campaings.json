@@ -1,226 +1,233 @@
 [<Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-03-15T16:03:17-0500",
+    "created_time": "2019-07-12T09:59:59-0500",
     "effective_status": "ACTIVE",
-    "id": "23843235111060619",
-    "name": "CO_Decameron_DecameronDays_Clicks_Marzo_2019_BDNoVistos",
-    "start_time": "2019-03-15T16:03:19-0500",
-    "stop_time": "2019-03-20T23:59:29-0500"
+    "id": "23843460684890619",
+    "name": "CO_Decameron_WeekendSaleV2_Clicks_DarkPost_Julio_2019",
+    "start_time": "2019-07-12T20:00:40-0500",
+    "stop_time": "2019-07-16T07:00:07-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-03-15T15:53:14-0500",
+    "created_time": "2019-07-05T18:14:44-0500",
     "effective_status": "ACTIVE",
-    "id": "23843235105360619",
-    "name": "CO_Decameron_DecameronDays_Clicks_Marzo_2019_BDVistos",
-    "start_time": "2019-03-15T15:53:16-0500",
-    "stop_time": "2019-03-20T23:59:29-0500"
+    "id": "23843447564790619",
+    "name": "CO_Decameron_WeekendSale_Clicks_DarkPost_Julio_2019",
+    "start_time": "2019-07-05T20:00:33-0500",
+    "stop_time": "2019-07-08T07:00:00-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-03-14T18:28:28-0500",
+    "created_time": "2019-07-04T14:45:54-0500",
     "effective_status": "ACTIVE",
-    "id": "23843233414760619",
-    "name": "CO_Decameron_DecameronDays_Clicks_Marzo_2019_Canvas_DMP",
-    "start_time": "2019-03-14T18:28:30-0500",
-    "stop_time": "2019-03-20T23:59:29-0500"
+    "id": "23843445155790619",
+    "name": "CO_Decameron_Geolocalizacion_VisitasAlNegocio_DarkPost_Julio_2019_OFF",
+    "start_time": "2019-07-04T14:45:55-0500",
+    "stop_time": "2019-07-31T23:59:35-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-03-14T18:02:24-0500",
-    "effective_status": "PAUSED",
-    "id": "23843233362710619",
-    "name": "CO_Decameron_DecameronDays_Ventas_Marzo_2019_Dinamicos",
-    "start_time": "2019-03-14T18:02:31-0500",
-    "stop_time": "2019-03-20T23:59:34-0500"
+    "created_time": "2019-06-28T12:25:01-0500",
+    "effective_status": "ACTIVE",
+    "id": "23843433333480619",
+    "name": "CO_Decameron_NightSale01_Clicks_DarkPost_Julio_2019",
+    "start_time": "2019-07-01T00:00:11-0500",
+    "stop_time": "2019-07-02T06:00:04-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-03-14T09:23:53-0500",
+    "created_time": "2019-06-28T12:12:07-0500",
     "effective_status": "ACTIVE",
-    "id": "23843232720880619",
-    "name": "CO_Decameron_DecameronDays_Clicks_Marzo_2019_IG_Story",
-    "start_time": "2019-03-14T09:23:55-0500",
-    "stop_time": "2019-03-20T23:59:29-0500"
+    "id": "23843433292520619",
+    "name": "CO_Decameron_NightSale28_Clicks_DarkPost_Junio_2019",
+    "start_time": "2019-06-28T20:00:11-0500",
+    "stop_time": "2019-06-30T23:59:04-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-03-14T09:06:08-0500",
+    "created_time": "2019-06-28T08:36:25-0500",
     "effective_status": "ACTIVE",
-    "id": "23843232697960619",
-    "name": "CO_Decameron_DecameronDays_LeadsCP_Marzo_2019_PPLA",
-    "start_time": "2019-03-14T09:06:11-0500",
-    "stop_time": "2019-03-20T23:59:26-0500"
+    "id": "23843433042390619",
+    "name": "CO_Decameron_EspecialPanama_Clicks_DarkPost_Julio_2019",
+    "start_time": "2019-07-02T06:00:13-0500",
+    "stop_time": "2019-07-28T23:59:00-0500"
+}, <Campaign> {
+    "account_id": "1918887448126096",
+    "buying_type": "AUCTION",
+    "created_time": "2019-06-28T08:31:33-0500",
+    "effective_status": "ACTIVE",
+    "id": "23843433030600619",
+    "name": "CO_Decameron_TooodoIncluido_Clicks_DarkPost_Julio_2019",
+    "start_time": "2019-07-02T06:00:59-0500",
+    "stop_time": "2019-07-28T23:59:00-0500"
+}, <Campaign> {
+    "account_id": "1918887448126096",
+    "buying_type": "AUCTION",
+    "created_time": "2019-06-27T18:29:42-0500",
+    "effective_status": "ACTIVE",
+    "id": "23843431806710619",
+    "name": "CO_Decameron_Campa\u00f1aLeads_LeadsCP_Julio_2019",
+    "start_time": "2019-07-01T00:00:22-0500",
+    "stop_time": "2019-07-31T23:59:25-0500"
+}, <Campaign> {
+    "account_id": "1918887448126096",
+    "buying_type": "AUCTION",
+    "created_time": "2019-06-25T11:39:40-0500",
+    "effective_status": "ACTIVE",
+    "id": "23843426844850619",
+    "name": "CO_Decameron_EspecialPanama_Clicks_DarkPost_Junio_2019",
+    "spend_cap": "650000",
+    "start_time": "2019-06-25T11:39:41-0500",
+    "stop_time": "2019-06-28T19:59:00-0500"
+}, <Campaign> {
+    "account_id": "1918887448126096",
+    "buying_type": "AUCTION",
+    "created_time": "2019-06-21T18:37:45-0500",
+    "effective_status": "ACTIVE",
+    "id": "23843420129760619",
+    "name": "CO_Decameron_TooodoIncluidoV2_Clicks_DarkPost_Junio_2019",
+    "spend_cap": "866667",
+    "start_time": "2019-06-25T00:00:08-0500",
+    "stop_time": "2019-06-28T19:59:00-0500"
+}, <Campaign> {
+    "account_id": "1918887448126096",
+    "buying_type": "AUCTION",
+    "created_time": "2019-06-14T19:38:12-0500",
+    "effective_status": "ACTIVE",
+    "id": "23843406362110619",
+    "name": "CO_Decameron_Geolocalizacion_VisitasAlNegocio_DarkPost_Junio_2019_OFF",
+    "start_time": "2019-06-14T19:38:14-0500",
+    "stop_time": "2019-06-30T23:59:17-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "RESERVED",
-    "created_time": "2019-03-14T08:46:08-0500",
+    "created_time": "2019-06-13T18:28:55-0500",
     "effective_status": "ACTIVE",
-    "id": "23843232677810619",
-    "name": "CO_Decameron_DecameronDays_R&F_Marzo_2019_Video",
-    "start_time": "2019-03-14T09:00:54-0500",
-    "stop_time": "2019-03-20T23:59:00-0500"
+    "id": "23843404335270619",
+    "name": "CO_Decameron_DecameronDays_Clicks_DarkPost_Junio_2019_R&F_17",
+    "start_time": "2019-06-17T00:00:00-0500",
+    "stop_time": "2019-06-24T23:59:00-0500"
+}, <Campaign> {
+    "account_id": "1918887448126096",
+    "buying_type": "RESERVED",
+    "created_time": "2019-06-13T18:00:01-0500",
+    "effective_status": "ACTIVE",
+    "id": "23843404294870619",
+    "name": "CO_Decameron_DecameronDays_Clicks_DarkPost_Junio_2019_R&F",
+    "start_time": "2019-06-14T00:00:00-0500",
+    "stop_time": "2019-06-16T23:59:00-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-03-13T16:58:47-0500",
+    "created_time": "2019-06-13T17:31:14-0500",
     "effective_status": "ACTIVE",
-    "id": "23843231657300619",
-    "name": "CO_Decameron_DecameronDays_Conv_Marzo2019_Video",
-    "start_time": "2019-03-14T08:35:21-0500",
-    "stop_time": "2019-03-20T23:59:51-0500"
+    "id": "23843404279460619",
+    "name": "CO_Decameron_DecameronDays_Conv_DarkPost_Junio_2019",
+    "start_time": "2019-06-14T00:00:26-0500",
+    "stop_time": "2019-06-24T23:59:10-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-03-08T17:33:16-0500",
+    "created_time": "2019-06-13T15:11:30-0500",
     "effective_status": "ACTIVE",
-    "id": "23843223968060619",
-    "name": "CO_Decameron_FinDeSemanaMujer_Clicks_DarkPost_Marzo_2019_PPLA",
-    "start_time": "2019-03-09T00:00:48-0500",
-    "stop_time": "2019-03-10T23:59:36-0500"
+    "id": "23843404046210619",
+    "name": "CO_Decameron_DecameronDays_Clicks_DarkPost_Junio_2019",
+    "spend_cap": "2668000",
+    "start_time": "2019-06-14T00:00:21-0500",
+    "stop_time": "2019-06-24T23:59:21-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-03-08T17:19:09-0500",
+    "created_time": "2019-06-13T11:57:25-0500",
     "effective_status": "ACTIVE",
-    "id": "23843223944380619",
-    "name": "CO_Decameron_FinDeSemanaMujer_Clicks_DarkPost_Marzo_2019_IG-Story",
-    "start_time": "2019-03-09T00:00:48-0500",
-    "stop_time": "2019-03-10T23:59:36-0500"
+    "id": "23843403841270619",
+    "name": "CO_Decameron_Concurso_Clicks_PostVisible_Junio_2019_OFF",
+    "spend_cap": "500000",
+    "start_time": "2019-06-13T11:57:27-0500",
+    "stop_time": "2019-06-16T23:59:42-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-03-04T18:21:26-0500",
+    "created_time": "2019-06-12T18:55:10-0500",
     "effective_status": "ACTIVE",
-    "id": "23843216755940619",
-    "name": "CO_Decameron_CyberDays_Clicks_DarkPost_Marzo_2019_IG_Story",
-    "start_time": "2019-03-04T18:21:27-0500",
-    "stop_time": "2019-03-08T23:59:42-0500"
+    "id": "23843402163300619",
+    "name": "CO_Decameron_DecameronDays_Ventas_Junio_2019_Dinamicos",
+    "spend_cap": "1184000",
+    "start_time": "2019-06-14T00:00:56-0500",
+    "stop_time": "2019-06-24T23:59:53-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-03-04T18:09:23-0500",
+    "created_time": "2019-06-07T17:56:21-0500",
     "effective_status": "ACTIVE",
-    "id": "23843216725540619",
-    "name": "CO_Decameron_CyberDays_Clicks_DarkPost_Marzo_2019",
-    "start_time": "2019-03-04T18:09:24-0500",
-    "stop_time": "2019-03-08T23:59:02-0500"
+    "id": "23843393305800619",
+    "name": "CO_Decameron_TooodoIncluido_Clicks_DarkPost_Junio_2019",
+    "spend_cap": "766666",
+    "start_time": "2019-06-07T17:56:23-0500",
+    "stop_time": "2019-06-12T23:59:48-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-02-28T14:49:43-0500",
+    "created_time": "2019-06-06T10:23:59-0500",
     "effective_status": "ACTIVE",
-    "id": "23843210712630619",
-    "name": "CO_Decameron_NightSale_Views_DarkPost_Marzo_28_2019_Video",
-    "start_time": "2019-03-01T00:00:58-0500",
-    "stop_time": "2019-03-01T06:00:58-0500"
+    "id": "23843390662990619",
+    "name": "CO_Decameron_Campa\u00f1aLeads_LeadsCP_Junio_2019",
+    "start_time": "2019-06-06T10:24:00-0500",
+    "stop_time": "2019-06-30T23:12:25-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-02-28T14:44:58-0500",
+    "created_time": "2019-06-05T16:48:38-0500",
     "effective_status": "ACTIVE",
-    "id": "23843210698770619",
-    "name": "CO_Decameron_NightSale_Views_DarkPost_Febrero_28_2019_Video",
-    "start_time": "2019-02-28T20:00:58-0500",
-    "stop_time": "2019-02-28T23:59:58-0500"
+    "id": "23843389331350619",
+    "name": "CO_Decameron_Visa_Clicks_DarkPost_Junio_2019",
+    "start_time": "2019-06-06T00:00:30-0500",
+    "stop_time": "2019-06-27T23:59:52-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-02-26T17:28:56-0500",
+    "created_time": "2019-05-31T12:02:29-0500",
     "effective_status": "ACTIVE",
-    "id": "23843207584680619",
-    "name": "CO_Decameron_NightSale_Clicks_DarkPost_Marzo_28_2019",
-    "start_time": "2019-03-01T00:00:58-0500",
-    "stop_time": "2019-03-01T06:00:58-0500"
+    "id": "23843380100000619",
+    "name": "CO_Decameron_NightSale01_Clicks_DarkPost_Junio_2019",
+    "start_time": "2019-06-01T00:00:58-0500",
+    "stop_time": "2019-06-04T07:00:51-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-02-26T17:24:44-0500",
+    "created_time": "2019-05-30T18:24:43-0500",
     "effective_status": "ACTIVE",
-    "id": "23843207581650619",
-    "name": "CO_Decameron_NightSale_Clicks_DarkPost_Marzo_28_2019_IG_Story",
-    "start_time": "2019-03-01T00:00:58-0500",
-    "stop_time": "2019-03-01T06:00:58-0500"
+    "id": "23843378670020619",
+    "name": "CO_Decameron_NightSale30_Clicks_DarkPost_Mayo_2019",
+    "start_time": "2019-05-31T20:00:58-0500",
+    "stop_time": "2019-05-31T23:59:51-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-02-26T17:15:18-0500",
-    "effective_status": "ACTIVE",
-    "id": "23843207571750619",
-    "name": "CO_Decameron_NightSale_Clicks_DarkPost_Febrero_28_2019_IG_Story",
-    "start_time": "2019-02-28T20:00:58-0500",
-    "stop_time": "2019-02-28T23:59:58-0500"
+    "created_time": "2019-05-28T17:15:17-0500",
+    "effective_status": "PAUSED",
+    "id": "23843374103930619",
+    "name": "prueba",
+    "start_time": "2019-05-28T17:15:18-0500",
+    "stop_time": "2019-05-31T17:03:38-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-02-26T17:07:27-0500",
+    "created_time": "2019-05-24T18:08:18-0500",
     "effective_status": "ACTIVE",
-    "id": "23843207535420619",
-    "name": "CO_Decameron_NightSale_Clicks_DarkPost_Febrero_28_2019",
-    "start_time": "2019-02-28T20:00:58-0500",
-    "stop_time": "2019-02-28T23:59:58-0500"
+    "id": "23843367487880619",
+    "name": "CO_Decameron_Anticipate_Clicks_DarkPost_Mayo_2019",
+    "spend_cap": "550000",
+    "start_time": "2019-05-25T00:00:28-0500",
+    "stop_time": "2019-05-31T20:00:00-0500"
 }, <Campaign> {
     "account_id": "1918887448126096",
     "buying_type": "AUCTION",
-    "created_time": "2019-02-22T16:34:58-0500",
+    "created_time": "2019-05-24T10:50:15-0500",
     "effective_status": "ACTIVE",
-    "id": "23843202302610619",
-    "name": "CO_Decameron_FinDeSemana_Clicks_DarkPost_Febrero_2019_IG_Story_V2",
-    "start_time": "2019-02-22T20:00:23-0500",
-    "stop_time": "2019-02-24T23:59:23-0500"
-}, <Campaign> {
-    "account_id": "1918887448126096",
-    "buying_type": "AUCTION",
-    "created_time": "2019-02-22T16:09:20-0500",
-    "effective_status": "ACTIVE",
-    "id": "23843202268410619",
-    "name": "CO_Decameron_FinDeSemana_Clicks_DarkPost_Febrero_2019 _V2",
-    "start_time": "2019-02-22T20:00:40-0500",
-    "stop_time": "2019-02-24T23:59:40-0500"
-}, <Campaign> {
-    "account_id": "1918887448126096",
-    "buying_type": "AUCTION",
-    "created_time": "2019-02-19T18:33:19-0500",
-    "effective_status": "ACTIVE",
-    "id": "23843197285260619",
-    "name": "CO_Decameron_Viajando_Clicks_DarkPost_Febrero_2019_IG_Story",
-    "start_time": "2019-02-19T18:33:20-0500",
-    "stop_time": "2019-02-28T20:00:00-0500"
-}, <Campaign> {
-    "account_id": "1918887448126096",
-    "buying_type": "AUCTION",
-    "created_time": "2019-02-19T18:27:15-0500",
-    "effective_status": "ACTIVE",
-    "id": "23843197265560619",
-    "name": "CO_Decameron_Viajando_Clicks_DarkPost_Febrero_2019_MP",
-    "start_time": "2019-02-19T18:27:16-0500",
-    "stop_time": "2019-02-28T20:00:00-0500"
-}, <Campaign> {
-    "account_id": "1918887448126096",
-    "buying_type": "AUCTION",
-    "created_time": "2019-02-19T18:18:33-0500",
-    "effective_status": "ACTIVE",
-    "id": "23843197255250619",
-    "name": "CO_Decameron_Viajando_Clicks_DarkPost_Febrero_2019_PPLA",
-    "start_time": "2019-02-19T18:18:35-0500",
-    "stop_time": "2019-02-28T20:00:00-0500"
-}, <Campaign> {
-    "account_id": "1918887448126096",
-    "buying_type": "AUCTION",
-    "created_time": "2019-02-15T18:37:57-0500",
-    "effective_status": "ACTIVE",
-    "id": "23843191673620619",
-    "name": "CO_Decameron_NightSale_Clicks_DarkPost_Febrero_15_2019",
-    "start_time": "2019-02-15T20:00:00-0500",
-    "stop_time": "2019-02-16T06:00:00-0500"
-}, <Campaign> {
-    "account_id": "1918887448126096",
-    "buying_type": "AUCTION",
-    "created_time": "2019-02-08T18:44:30-0500",
-    "effective_status": "ACTIVE",
-    "id": "23843181245670619",
-    "name": "CO_Decameron_FinDeSemana_Clicks_DarkPost_Febrero_2019_IG",
-    "start_time": "2019-02-08T18:44:32-0500",
-    "stop_time": "2019-02-10T23:59:00-0500"
+    "id": "23843366947220619",
+    "name": "CO_Decameron_Campa\u00f1aLeads_LeadsCP_Mayo_2019",
+    "start_time": "2019-05-24T10:50:17-0500",
+    "stop_time": "2019-05-31T20:00:00-0500"
 }]
